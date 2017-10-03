@@ -9,7 +9,7 @@ This R function will return a "resistance" matrix as a `dist` object provided a 
 
 This script has only been tested on Mac/linux and was designed to run on a Unix-based [CIRCUITSCAPE](http://www.circuitscape.org/downloads) installation. This means that the `csrun.py` program should be in directory found in the `$PATH` variable; for example, `/usr/local/bin`. The script also requires that the `raster` and `sp` packages are installed.
 
-### Install dependencies:
+### Install package dependencies:
 
     install.packages(c("raster","sp"))
     
