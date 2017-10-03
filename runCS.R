@@ -5,7 +5,7 @@ runCS <- function(layer, sites){
 		stop("sites are do not fall within unique cells")
 	}
 	sites <- rasterize(x = sites,y = layer)
-	dir.create("CS")
+	dir.create("CS",showWarnings=FALSE)
 	writeRaster(sites,"CS/sites_rast.asc",overwrite=TRUE)
 	writeRaster(layer,"CS/resis_rast.asc",overwrite=TRUE)
 	CS_ini <- c("[circuitscape options]",            
