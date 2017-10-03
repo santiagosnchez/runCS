@@ -21,7 +21,8 @@ This script has only been tested on Mac/linux and was designed to run on a Unix-
 ## Run the code
 
     resistance <- runCS(layer, points)
-    # "layer" needs to be a RasterLayer object and "points" a xy matrix or a SpatialPoints object
+    # "layer" needs to be a RasterLayer object and 
+    # "points" a xy matrix or a SpatialPoints object
     
 ## Suggestions
 
